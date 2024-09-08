@@ -14,9 +14,9 @@ calculateTip(350)
 
 
 //Implement and populate arrays for bills, tips, and totals
-let bills = [275, 40, 430]
+let bills = [125, 555, 44]
 let tips = bills.map (bill => calculateTip(bill));
-console.log (`The tips for bills 275, 40, and 430 are: $${tips}`)
+console.log (`The tips for bills 125, 555, and 44 are: $${tips}`)
 let totals = bills.map (bills => calculateTip(bills) + bills)
 console.log(`Your total bills, with tips included, are: $${totals}`)
 
